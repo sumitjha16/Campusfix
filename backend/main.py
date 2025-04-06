@@ -14,7 +14,7 @@ import uuid
 from enum import Enum
 
 # MongoDB setup
-MONGO_URI = "mongodb+srv://dheerendraghoshghosh6:qwertyuiop12345@cluster0.kqmswt1.mongodb.net/db1"
+MONGO_URI = ""
 client = MongoClient(MONGO_URI)
 db = client["campus_fix"]
 users_collection = db["users"]
